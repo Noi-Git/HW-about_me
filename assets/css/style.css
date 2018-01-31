@@ -12,9 +12,9 @@ body {
   color: #ff7400;
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem;
-  overflow: hidden;
+  overflow: scroll;
   width: 80%;
-  margin: 150px auto 20px auto; }
+  margin: 20px auto 0 auto; }
 
 h1, h3 {
   font-family: "Rufina", serif;
@@ -23,7 +23,8 @@ h1, h3 {
 
 h1 {
   font-size: 2.5rem;
-  color: #ff7400; }
+  color: #ff7400;
+  text-shadow: 2px 2px 5px #ccb8a8; }
 
 h3 {
   font-size: 1.8rem;
@@ -31,18 +32,36 @@ h3 {
   color: #0aa5b0;
   text-shadow: 2px 2px 3px #9bc4bc; }
 
+h4 {
+  display: flex;
+  align-items: center;
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 5px #ccb8a8;
+  text-align: center; }
+
 #copyright {
-  background-color: #0aa5b0; }
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0aa5b0;
+  color: #f7f6f3;
+  font-size: 0.9rem;
+  height: 50px; }
+
+/* ==== MEDIA QUERY ==== */
+@media-screen and (min width 668px) {
+  aside .left {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 0; } }
 
 /* ==== ASIDE ==== */
-.left img {
-  margin-top: 50px; }
-
-section .like {
-  margin-top: 70px; }
-
 .like ul li {
-  line-height: 2rem; }
+  line-height: 2rem;
+  padding: 0 20px; }
 
 /* ==== HEADER AREA ==== */
 .header-area p,
@@ -64,7 +83,7 @@ section .like {
   grid: auto auto auto 50px/repeat(10, 1fr);
   min-height: 100vh;
   grid-gap: 10px;
-  grid-template-areas: "h h h h h  h h h h h" ". k k k k  k k l l ." ". m m m m  m m m m ." "f f f f f  f f f f f"; }
+  grid-template-areas: "h h h h h  h h h h h" ". l l k k  k k k k ." ". m m m m  m m m m ." "f f f f f  f f f f f"; }
 
 .header-area {
   grid-area: h; }
@@ -83,7 +102,6 @@ section .like {
 
 /* ==== MY SKILLS ==== */
 section #myskills {
-  margin: 30px 0;
   color: #522f1e; }
 
 #myskills ul {

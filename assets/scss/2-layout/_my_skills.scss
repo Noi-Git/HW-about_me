@@ -1,7 +1,6 @@
 /* ==== MY SKILLS ==== */
 
 section #myskills {
-  margin: 30px 0;
   color: $text-dark;
 }
 #myskills ul{
@@ -11,7 +10,6 @@ section #myskills {
   flex-wrap: wrap;     // flex-flow: row wrap;
   list-style-type: none;
   text-align: center;
-
 }
 
 .skills {
