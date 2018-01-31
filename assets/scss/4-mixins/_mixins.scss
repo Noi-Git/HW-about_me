@@ -1,0 +1,64 @@
+/* ==== MIXINS ==== */
+
+@mixin button-blue {
+background-color: #55acee;
+box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+@mixin button-green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+@mixin button-red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+@mixin button-purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+@mixin button-orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+@mixin button-yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+
+
+
+@mixin button-box1 {
+  background-color: $box1;
+  box-shadow: 0px 5px 0px 0px $box1-shadow;
+}
+
+@mixin button-box2 {
+  background-color: $box2;
+  box-shadow: 0px 5px 0px 0px $box1-shadow;
+}
+
+@mixin button-box3 {
+  background-color: $box3;
+  box-shadow: 0px 5px 0px 0px $box3-shadow;
+}
+
+@mixin button-box4 {
+  background-color: $box4;
+  box-shadow: 0px 5px 0px 0px $box4-shadow;
+}
+
+@mixin button-box5 {
+  background-color: $box5;
+  box-shadow: 0px 5px 0px 0px $box5-shadow;
+}
+
+@mixin button-box6 {
+  background-color: $box6;
+  box-shadow: 0px 5px 0px 0px $box6-shadow;
+}
