@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/aboutme-wireframe.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/aboutme-wireframe.html",
+		"oF": 0
+		},
 	"\/assets\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -29,11 +36,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/noi-cute-monster.svg": {
+	"\/assets\/img\/sushi-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/noi-cute-monster.svg",
+		"oAP": "\/assets\/img\/sushi-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -48,6 +55,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/wireframe-aboutme.png": {
+		"ft": 32768,
+		"iS": 67966,
+		"oA": 0,
+		"oAP": "\/assets\/img\/wireframe-aboutme.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/js\/index-min.js": {
 		"ft": 64,
@@ -199,6 +217,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/2-layout\/_svg-animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/2-layout\/_svg-animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/3-modules\/_0-modules-dir.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -282,6 +313,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/svg-animation.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/svg-animation.html",
 		"oF": 0
 		}
 	},

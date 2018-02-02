@@ -3,7 +3,7 @@
 section #myskills {
   color: $text-dark;
 }
-#myskills ul{
+#myskills ul,{
   display: flex;
   align-items: center;
   flex-direction: row; // flex-direction and flex-wrap can use short hand
@@ -42,4 +42,28 @@ section #myskills {
   color: $footer-color;
   font-weight: 400;
   padding-bottom: 40px;
+}
+
+aside .sample {
+  color: $text-dark;
+}
+
+.samples {
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.sample ul li{
+  align-items: center;
+  list-style-type: none;
+  color: $text-dark;
+}
+
+.sample1 {
+  @include button-orange;
+}
+.sample2 {
+  @include button-blue;
 }

@@ -51,6 +51,12 @@ h4 {
   font-size: 0.9rem;
   height: 50px; }
 
+a {
+  text-decoration: none; }
+
+li a:hover {
+  color: rgba(255, 255, 255, 0.9); }
+
 /* ==== MEDIA QUERY ==== */
 @media-screen and (min width 668px) {
   aside .left {
@@ -83,7 +89,7 @@ h4 {
   grid: auto auto auto 50px/repeat(10, 1fr);
   min-height: 100vh;
   grid-gap: 10px;
-  grid-template-areas: "h h h h h  h h h h h" ". l l k k  k k k k ." ". m m m m  m m m m ." "f f f f f  f f f f f"; }
+  grid-template-areas: "h h h h h  h h h h h" ". l l k k  k k k k ." "m m m m m  m m m s s" "f f f f f  f f f f f"; }
 
 .header-area {
   grid-area: h; }
@@ -93,6 +99,9 @@ h4 {
 
 .like {
   grid-area: k; }
+
+.sample {
+  grid-area: s; }
 
 #myskills {
   grid-area: m; }
@@ -145,5 +154,167 @@ section #myskills {
   color: #0aa5b0;
   font-weight: 400;
   padding-bottom: 40px; }
+
+aside .sample {
+  color: #522f1e; }
+
+.samples {
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center; }
+
+.sample ul li {
+  align-items: center;
+  list-style-type: none;
+  color: #522f1e; }
+
+.sample1 {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509; }
+
+.sample2 {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5; }
+
+/* ==== SVG ANIMATION ==== */
+button {
+  padding: 30px 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px auto; }
+
+#mat {
+  animation: pop 6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation: pop 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation-fill-mode: forwards; }
+
+/*Keyframes*/
+@-webkit-keyframes pop_b {
+  0% {
+    -webkit-transform: scale(0.2);
+    -webkit-transform: rotate(27deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    -webkit-transform: rotate(0deg);
+    opacity: 100%; } }
+
+@-webkit-keyframes pop {
+  0% {
+    -webkit-transform: scale(0.7);
+    -webkit-transform: rotate(7deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    -webkit-transform: rotate(0deg);
+    opacity: 100%; } }
+
+#table {
+  animation: pop 6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation: pop 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation-fill-mode: forwards; }
+
+/*Keyframes*/
+@-webkit-keyframes pop_b {
+  0% {
+    -webkit-transform: scale(0.2);
+    -webkit-transform: rotate(27deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    -webkit-transform: rotate(0deg);
+    opacity: 100%; } }
+
+@-webkit-keyframes pop {
+  0% {
+    -webkit-transform: scale(0.7);
+    -webkit-transform: rotate(7deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    -webkit-transform: rotate(0deg);
+    opacity: 100%; } }
+
+/* rice-rolls */
+#rice-rolls {
+  animation-delay: .1s;
+  -webkit-animation-delay: 1s;
+  animation: sushi-rolls 4s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+@keyframes sushi-rolls {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+/* bowl */
+#bowl {
+  animation-delay: .2s;
+  -webkit-animation-delay: 1s;
+  animation: bowl 3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+@keyframes bowl {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+/* green-vegi */
+#green-vegi {
+  animation-delay: .8s;
+  -webkit-animation-delay: 1s;
+  animation: green-vegi 5s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+@keyframes green-vegi {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+/* brown-salmon */
+#brown-salmon {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation: green-vegi 8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+@keyframes brown-salmon {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+#special {
+  animation: special 6s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+  -webkit-animation: special 5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation-fill-mode: forwards; }
+
+/*Keyframes*/
+@-webkit-keyframes special {
+  0% {
+    -webkit-transform: scale(0.2);
+    -webkit-transform: rotate(27deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    -webkit-transform: rotate(0deg);
+    opacity: 100%; } }
+
+#chopsticks {
+  animation: chopsticks 6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation: chopsticks 3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-animation-fill-mode: forwards; }
+
+/*Keyframes*/
+@-webkit-keyframes chopsticks {
+  0% {
+    -webkit-transform: scale(0.2);
+    -webkit-transform: rotate(27deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform: scale(1);
+    -webkit-transform: rotate(0deg);
+    opacity: 100%; } }
 
 /* ==== BOX ==== */
